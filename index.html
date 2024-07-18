@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitric Owl - Android</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img {
+            max-height: 500px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="display-4">Vitric Owl</h1>
+        <p class="lead">Your Ultimate Android Storefront</p>
+    </header>
+
+    <!-- Introduction -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h2>Welcome to Vitric Owl</h2>
+                <p class="lead">Discover the best apps and games for your Android device. Curated collections, user-friendly
+                    interface, and seamless downloads.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-mobile-alt fa-3x text-primary"></i>
+                    </div>
+                    <h4>Extensive Collection</h4>
+                    <p>Thousands of apps and games, carefully curated for quality and relevance.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-lock fa-3x text-primary"></i>
+                    </div>
+                    <h4>Secure Downloads</h4>
+                    <p>Download with confidence. All apps are scanned for malware and security threats.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-star fa-3x text-primary"></i>
+                    </div>
+                    <h4>Top Ratings</h4>
+                    <p>Discover top-rated apps and games based on user reviews and ratings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshot Carousel -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">App Screenshots</h2>
+        <div id="screenshotCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/screenshot1.jpg" class="d-block w-100" alt="Screenshot 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/screenshot2.jpg" class="d-block w-100" alt="Screenshot 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/screenshot3.jpg" class="d-block w-100" alt="Screenshot 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#screenshotCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#screenshotCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 Vitric Owl. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
