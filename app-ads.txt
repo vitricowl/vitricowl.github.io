@@ -1,6 +1,3 @@
 google.com, pub-3559336134133613, DIRECT, f08c47fec0942fa0
-<<<<<<< HEAD
 google.com, pub-7283290755926056, DIRECT, f08c47fec0942fa0
-=======
 google.com, pub-9370582153127885, DIRECT, f08c47fec0942fa0
->>>>>>> 6eca13ac4fa58d6a266786ceb81c3e8df1caa50e
