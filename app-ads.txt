@@ -5,6 +5,8 @@ applovin.com, e6ef9ee48e369d9b237ff2fcf7543be7, DIRECT
 algorix.co, 60532, RESELLER, 5b394c12fea27a1d
 contextweb.com , 562615, RESELLER, 89ff185a4c4e857c
 gamaigroup.com, 423056, RESELLER
+facebook.com, 868584467064393, DIRECT, c3e20eee3f780d68
+facebook.com, 1164504838430840, DIRECT, c3e20eee3f780d68
 lijit.com, 516975, RESELLER, fafdf38b16bf6b2b
 loopme.com, 11303, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 11424, RESELLER, 6c8d5f95897a5a3b
